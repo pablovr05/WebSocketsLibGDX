@@ -14,7 +14,7 @@ public class WebSockets {
 
     private void connectWebSocket() {
         try {
-            URI serverUri = new URI("ws://localhost:1234"); // Reemplaza con la URL de tu servidor WebSocket
+            URI serverUri = new URI("wss://pvicenteroura.ieti.site/ws");
 
             webSocketClient = new WebSocketClient(serverUri) {
                 @Override
